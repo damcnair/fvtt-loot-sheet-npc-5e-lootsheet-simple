@@ -1,0 +1,35 @@
+{
+  "title": "Loot Sheet NPC 5e (Simple Version) - Temp Fix",
+  "description": "This module adds an additional NPC sheet which can be used for loot containers such as chests or shopkeepers.",
+  "version": "5.0.6",
+  "esmodules": [
+    "/lootsheet-simple.js"
+  ],
+  "styles": [
+    "/css/lootsheet-simple.css"
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "socket": true,
+  "url": "https://github.com/damcnair/fvtt-loot-sheet-npc-5e",
+  "manifest": "https://raw.githubusercontent.com/damcnair/fvtt-loot-sheet-npc-5e/lootsheet-simple/module.json",
+  "download": "https://github.com/damcnair/fvtt-loot-sheet-npc-5e/archive/lootsheet-simple.zip",
+  "id": "lootsheet-simple",
+  "authors": [
+    {
+      "name": "Jan Ole Peek (ChalkOne)",
+      "flags": {}
+    }
+  ],
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10.291"
+  }
+}
